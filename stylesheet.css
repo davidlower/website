@@ -1,0 +1,212 @@
+
+/*----------------------------------------*/
+/*  GENERAL DOC PROFILES */
+/*----------------------------------------*/
+
+html,
+body {
+  height: 100%;
+}
+
+.cover {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+h2 {
+  font-family: Lato, sans-serif;
+  font-size: 3.5rem;
+  letter-spacing: -0.01rem;
+  line-height: 26px;
+  padding-bottom: 0.4rem;
+}
+
+h5 {
+  font-family: Lato, sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: -0.01rem;
+  line-height: 26px;
+  color: #fff;
+}
+
+p {
+  font-family: Roboto Slab, serif;
+  font-size: 0.9rem;
+  padding: 20px 0 8px 0;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.logo {
+  height: 125px;
+}
+
+/*----------------------------------------*/
+/*  HEADER SECTION NAV & HERO */
+/*  COLOR PALETTE    */
+/*----------------------------------------*/
+
+.navbar-collapse {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #313131;
+}
+
+.hero-cover {
+  background: #222 url(img/petar-petkovski-157391-compressor.jpg) center center no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.hero-content {
+  background-color: rgba(0, 10, 255, 0.95);
+  border-radius: 10px;
+  padding: 50px;
+  
+}
+
+/*----------------------------------------*/
+/*  MEDIUM SECTION  */
+/*  COLOR PALETTE  #01AB6C  #32FC8E  */
+/*----------------------------------------*/
+
+.medium-cover {
+  background: #01AB6C url(img/medium-cover-green-compressor.jpg) right center no-repeat;
+  background-size: cover;
+}
+
+.medium-content {
+  background: #01AB6C url(img/medium-cover-white-compressor.jpg) left center no-repeat;
+  background-size: cover;
+}
+
+.button-blog:link,
+.button-blog:visited {
+  color: #01AB6C;
+  border: 1px solid #01AB6C;
+  text-decoration: none;
+}
+
+.button-blog:hover,
+.button-blog:active {
+  background-color: #32FC8E;
+  color: #ffffff;
+  border: 1px solid #32FC8E;
+}
+
+
+/*----------------------------------------*/
+/*  SLACK SECTION  */
+/*  COLOR PALETTE  #6ecadc  #e9a820  #e01563  #3eb991  */
+/*----------------------------------------*/
+
+.slack-content {
+  background: #6ecadc url(img/Slack-cover-white-compressor.jpg) right center no-repeat;
+  background-size: cover;
+}
+
+.slack-cover {
+  background: #6ecadc url(img/Slack-cover-colors-compressor.jpg) left center no-repeat;
+  background-size: cover;
+}
+
+.button-slack:link,
+.button-slack:visited {
+  color: #e01563;
+  background-color: #ffffff;
+  border-left: 2px solid #6ecadc;
+  border-top: 2px solid #e9a820;
+  border-right: 2px solid #e01563;
+  border-bottom: 2px solid #3eb991;
+  text-decoration: none;
+}
+
+.button-slack:hover,
+.button-slack:active {
+  color: #6ecadc;
+  background-color: #ffffff;
+  border-top: 2px solid #6ecadc;
+  border-right: 2px solid #e9a820;
+  border-bottom: 2px solid #e01563;
+  border-left: 2px solid #3eb991;
+}
+
+/*----------------------------------------*/
+/*  PORFOLIO SECTION  */
+/*  COLOR PALETTE  #e8fa15  */
+/*----------------------------------------*/
+
+.portfolio-cover {
+  background: #6ecadc url(img/portfolio-color-compressor.jpg) left center no-repeat;
+  background-size: cover;
+  background-color: #e8fa15;
+}
+
+.card-img-top {
+  width: 100%;
+}
+
+.portfolio-content {
+  background: #6ecadc url(img/portfolio-white-compressor.jpg) left center no-repeat;
+  background-size: cover;
+  padding: 5% 0;
+}
+
+.card-heading {
+  padding: 5% 0 1% 0;
+}
+
+.github-link,
+.codepen-link {
+  color:  #5b039f;
+  text-decoration: none;
+
+}
+/*----------------------------------------*/
+/*  FOOTER SECTION  */
+/*  COLOR PALETTE  #0e031f #cc99ff */
+/*----------------------------------------*/
+
+footer {
+  background-color: #0e031f;
+}
+
+.contact-form {
+  display: flex;
+  align-items: center;
+}
+
+.footer-container {
+  padding: 50px 0;
+}
+
+.footer-links {
+  list-style: none;
+  color: #fff;
+  padding-bottom: 2px;
+}
+
+.footer-links:hover {
+  text-decoration: none;
+  color: #cc99ff;
+}
+
+footer .btn:hover {
+  background-color: #cc99ff;
+}
+
+/*-------------------*/
+/*  PORTFOLIO PAGE  */
+/*-------------------*/
+
+.portfolio-header {
+  height: 200px;
+  overflow: hidden;
+  background-position: center center;
+}
